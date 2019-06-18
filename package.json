@@ -5,7 +5,6 @@
   "dependencies": {
     "babel-plugin-module-resolver": "^3.2.0",
     "formik": "^1.5.7",
-    "gh-pages": "^2.0.1",
     "modern-normalize": "^0.5.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -17,13 +16,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "eject": "react-scripts eject"
   },
-  "homepage": "https://paniebartku.github.io/goodtimesapp",
   "browserslist": [
     ">0.2%",
     "not dead",
