@@ -15,6 +15,9 @@ const StyledInput = styled(Input)`
   @media (max-width: 600px) {
     width: 96%;
   }
+  @media (max-width: 400px) {
+    margin: 5px;
+  }
 `;
 const StyledTextArea = styled(Input)`
   margin: 30px;
@@ -23,9 +26,12 @@ const StyledTextArea = styled(Input)`
   @media (max-width: 600px) {
     width: 96%;
   }
+  @media (max-width: 400px) {
+    margin: 5px;
+  }
 `;
 const StyledWrapper = styled.div`
-  padding: 70px;
+  padding: 7rem;
   border: 1px solid black;
   top: 0;
   left: 0;
@@ -40,6 +46,10 @@ const StyledWrapper = styled.div`
   animation-duration: 0.4s;
   transition: transform 1s ease-in-out;
   position: fixed;
+  @media (max-width: 800px) {
+    padding: 2rem;
+    min-height: calc(60% - 3.5rem);
+  }
 `;
 
 const StyledForm = styled(Form)`
