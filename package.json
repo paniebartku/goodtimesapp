@@ -2,6 +2,7 @@
   "name": "goodtimesapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://bartlomiejwilczek.pl/goodtimes/",
   "dependencies": {
     "babel-plugin-module-resolver": "^3.2.0",
     "formik": "^1.5.7",
@@ -40,8 +41,7 @@
   "lint-staged": {
     "*.js": [
       "prettier --config .prettierrc --write",
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ]
   }
 }

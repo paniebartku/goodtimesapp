@@ -10,7 +10,7 @@ import LPs from 'views/LPs';
 
 const Root = () => (
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/goodtimes">
       <StyleTemplate>
         <Switch>
           <Route exact path={routes.home} render={() => <Redirect to="/cds" />} />
