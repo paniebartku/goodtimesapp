@@ -17,6 +17,15 @@ const initialState = {
       albumDescription: 'What is this that stands before me?',
       albumFormat: 'LP',
     },
+    {
+      id: 3,
+      albumImage:
+        'https://img.discogs.com/IzvYg4mOmi7qEsgq2BbM1Z9b6t8=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3395379-1328735105.jpeg.jpg',
+      aritstName: 'Last Believer / Slip ',
+      albumName: 'Last Believer / Slip ',
+      albumDescription: 'version with extra cover, hand numbered, limited to 101 ',
+      albumFormat: 'LP',
+    },
   ],
   mcs: [
     {
@@ -84,6 +93,14 @@ const initialState = {
       aritstName: 'Tom Waits',
       albumName: 'Mule Variations',
       albumDescription: 'Hold on...',
+      albumFormat: 'CD',
+    },
+    {
+      id: 5,
+      albumImage: 'https://www.metal-archives.com/images/3/6/1/4/3614.jpg?0320',
+      aritstName: 'Ulver',
+      albumName: 'Perdition City',
+      albumDescription: 'Music to an Interior Film',
       albumFormat: 'CD',
     },
   ],
